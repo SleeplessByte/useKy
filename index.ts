@@ -1,4 +1,4 @@
-import { useReducer, useEffect, Reducer, useDebugValue  } from 'react'
+import { useReducer, useEffect, Reducer, useDebugValue } from 'react'
 import ky, { Options, ResponsePromise } from 'ky'
 
 type Omit<T, K extends keyof T> = Pick<T, Exclude<keyof T, K>>
