@@ -1,0 +1,4 @@
+.rts2_*
+dist
+node_modules
+yarn.error
