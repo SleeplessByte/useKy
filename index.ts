@@ -22,7 +22,7 @@ type StartAction = { type: 'start' }
 type DataAction<T> = { type: 'data', data: T }
 type ErrorAction<E extends Error = Error> = { type: 'error', error: E }
 
-function reducer<T, E extends Error = Error>(state: KyState<T, E>, action: KyAction<T, E>) {
+export function reducer<T, E extends Error = Error>(state: KyState<T, E>, action: KyAction<T, E>) {
   switch (action.type) {
     case 'init':
       return initialState;
