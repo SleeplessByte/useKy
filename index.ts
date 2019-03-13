@@ -15,7 +15,7 @@ interface OptionsWithBody extends Options {
 }
 
 export type KyState<T, E extends Error = Error> = { loading: boolean, error: E | null, data: T | null }
-type KyAction<T, E extends Error = Error> = InitAction | StartAction | DataAction<T> | ErrorAction<E>
+export type KyAction<T, E extends Error = Error> = InitAction | StartAction | DataAction<T> | ErrorAction<E>
 
 type InitAction = { type: 'init' }
 type StartAction = { type: 'start' }
