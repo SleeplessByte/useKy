@@ -1,6 +1,6 @@
 {
   "name": "use-ky",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "description": "Fetch-like hook using Ky",
   "main": "dist/index.js",
   "umd:main": "dist/index.umd.js",
@@ -18,14 +18,17 @@
     "dev": "microbundle watch",
     "prepublish": "yarn build"
   },
-  "dependencies": {
-    "ky": "^0.9",
-    "react": "^16.8"
+  "peerDependencies": {
+    "ky": "^0.24",
+    "react": "^16.14"
   },
+  "dependencies": {},
   "devDependencies": {
-    "@types/react": "^16.8.7",
-    "ava": "^1.3.1",
-    "microbundle": "^0.11.0",
-    "typescript": "^3.3.3333"
+    "@types/react": "^16.9.53",
+    "ava": "^3.13.0",
+    "ky": "^0.24.0",
+    "microbundle": "^0.12.4",
+    "react": "^16.14.0",
+    "typescript": "^4.0.3"
   }
 }
