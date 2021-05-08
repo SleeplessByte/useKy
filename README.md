@@ -1,5 +1,7 @@
 # use-ky
 
+⚠️ This has been deprecated. Use [`react-query`](https://react-query.tanstack.com/) in combination with `ky` instead.
+
 Fetch-like hook using [Ky](https://github.com/sindresorhus/ky).
 
 ## Installation
